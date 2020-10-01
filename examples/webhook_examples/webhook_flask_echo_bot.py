@@ -11,14 +11,14 @@ import flask
 
 import telebot
 
-API_TOKEN = '<api_token>'
+API_TOKEN = '1013471211:AAHIjCLdYLvyTH40ZJGQ9o6rEnxz3RzQgNo'
 
-WEBHOOK_HOST = '<ip/host where the bot is running>'
+WEBHOOK_HOST = '194.67.110.43'
 WEBHOOK_PORT = 8443  # 443, 80, 88 or 8443 (port need to be 'open')
-WEBHOOK_LISTEN = '0.0.0.0'  # In some VPS you may need to put here the IP addr
+WEBHOOK_LISTEN = '194.67.110.43'  # In some VPS you may need to put here the IP addr
 
-WEBHOOK_SSL_CERT = './webhook_cert.pem'  # Path to the ssl certificate
-WEBHOOK_SSL_PRIV = './webhook_pkey.pem'  # Path to the ssl private key
+WEBHOOK_SSL_CERT = '/home/pornbot/webhook_cert.pem'  # Path to the ssl certificate
+WEBHOOK_SSL_PRIV = '/home/pornbot/webhook_pkey.pem
 
 # Quick'n'dirty SSL certificate generation:
 #
